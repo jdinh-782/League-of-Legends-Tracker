@@ -13,7 +13,7 @@ import numpy as np
 summoner_name = input("Enter summoner name: ")
 
 # grab summoner details
-watcher = LolWatcher("RGAPI-6dbfef53-bdce-4e8a-a29c-f799be960cff")
+watcher = LolWatcher("YOUR_API_KEY")
 summoner = watcher.summoner.by_name("na1", summoner_name)
 print(f"\nsummoner characteristics: {summoner}")
 
